@@ -167,59 +167,6 @@ $ npm version patch
 $ npm publish
 ```
 
-## Release History
-* 2019-04-13
-  - Removed button navigation for arrow navigation. Using arrow navigation now disables the image-click navigation that had previously existed.
-* 2018-03-04
-  - Added Infinite Scrolling Option that allows users to scroll from first to last option continuously using the arrow buttons. Buttons dynamically rendered based on current position of img
-* 2018-02-24
-  - Fixed deprecation errors / warnings, updated packages.
-* 2016-09-29
-  - Add `clickable` props to on/off click of image.
-* 2016-09-22
-  - Fix issue change `active` can update `current` image.
-* 2016-09-16
-  - Add keypress events for prev/next
-* 2016-09-13
-  - Fix [Unknown Prop Warning](https://facebook.github.io/react/warnings/unknown-prop.html)
-  - Radium updated that if you need RWD feature you need to wrap `<StyleRoot>`
-  - Remove img `url` attribute, use `data-action` instead. when value is string will redirectin url otherwise can put function will be execute.
-  - Add `active` attribute
-* 2016-09-10
-  - Use `postcss-loader` instead of `autoprefixer-loader`
-  - Update babel to v6+
-* 2015-12-12 Fix React 0.14.3 two copies issue
-* 2015-12-10 Update React version.
-* 2015-11-13
-  - v0.1.9 Support responsive props.
-  - Update eslint with babel-eslint.
-* 2015-11-11
-  - v0.1.8 Fix some issues and add option to enable/disable scroll ability.
-  - Add displayName to fix react-devtool show t tag.
-* 2015-11-10
-  - v0.1.6 Support react 0.14.2
-* 2015-10-09
-  - v0.1.4 Add propTypes and enableHeading options for mobile.
-  - Add example of responsive.
-* 2015-10-07 v0.1.3 Support even number of images, Fix bugs
-* 2015-09-22 v0.1.0
-
-
-## Issues
-
-* If you get the errors as follow
-
-```
-Warning: Any use of a keyed object should be wrapped in React.addons.createFragment(object) before being passed as a child. Warning: t(...): React component classes must extend React.Component.
-```
-
-That because of React 0.14.2 got some change and the component not update before.
-
-* [addCSS issue](https://github.com/FormidableLabs/radium/issues/574)
-
-```
-Error: To use plugins requiring addCSS (e.g. keyframes, media queries), please wrap your application in the StyleRoot component
-```
 
 
 ## Todo
