@@ -130,17 +130,6 @@ ReactDOM.render(
 );
 ```
 
-## Contributors
-
-* [andyyou](https://github.com/andyyou)
-* [Calvert Yang](https://github.com/CalvertYang)
-* [Ariel Salem](https://github.com/asalem1)
-
-Use [Github issues](https://github.com/andyyou/react-coverflow/issues) for requests
-
-`react-coverflow` is a community project and wouldn't be what it is without contributions! We encourage and support contributions. The `react-coverflow` source code is released under the MIT License.
-
-Feel free to fork and improve/enhance `react-coverflow` any way you want. If you feel that `react-coverflow` will benefit from your changes, please open a pull request.
 
 ## Development
 
